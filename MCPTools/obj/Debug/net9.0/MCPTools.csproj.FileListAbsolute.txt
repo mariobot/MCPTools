@@ -49,3 +49,4 @@ C:\Desarrollo\MCPTools\MCPTools\obj\Debug\net9.0\refint\MCPTools.dll
 C:\Desarrollo\MCPTools\MCPTools\obj\Debug\net9.0\MCPTools.pdb
 C:\Desarrollo\MCPTools\MCPTools\obj\Debug\net9.0\MCPTools.genruntimeconfig.cache
 C:\Desarrollo\MCPTools\MCPTools\obj\Debug\net9.0\ref\MCPTools.dll
+C:\Desarrollo\MCPTools\MCPTools\obj\Debug\net9.0\MCPTools.sourcelink.json
