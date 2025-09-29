@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MCPTools;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
@@ -16,6 +17,8 @@ builder.Services
     .AddMcpServer()
     .WithStdioServerTransport()
     .WithToolsFromAssembly();
+
+builder.Services.AddSingleton<MCPServices>();
 
 await builder.Build().RunAsync();
 

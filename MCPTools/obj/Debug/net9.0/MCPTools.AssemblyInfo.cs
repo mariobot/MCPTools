@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCPTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17e0aab7c898b1dbacd9d410761ba967215492e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bd2262bbb63f954db84848b099ec6adcf30f132")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCPTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCPTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,16 +1,11 @@
 {
-    "servers": {
-        "serversMCP": {
-            "type": "stdio",
-            "command": "dotnet",
-            "args": [
-                "run",
-                "--project",
-                "C:\\Desarrollo\\MCPTools\\MCPTools.csproj"
-            ],
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-        },
-    }
+	"servers": {
+		"my-mcp-server-18a4abf2": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": ["run", "--project", "./MCPTools/MCPTools.csproj"],
+            "cwd": "C:\\Desarrollo\\MCPTools",
+		}
+	},
+	"inputs": []
 }
