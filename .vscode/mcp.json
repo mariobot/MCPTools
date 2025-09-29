@@ -1,0 +1,16 @@
+{
+    "servers": {
+        "serversMCP": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:\\Desarrollo\\MCPTools\\MCPTools.csproj"
+            ],
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+        },
+    }
+}
